@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -371,8 +371,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
-  m_LocalRotation: {x: -0.10024822, y: -0.040284332, z: -0.0040622456, w: 0.99413836}
-  m_LocalPosition: {x: 2.382967, y: 0.96098185, z: -14.938137}
+  m_LocalRotation: {x: -0.109281175, y: 0.001490887, z: 0.00016390796, w: 0.9940098}
+  m_LocalPosition: {x: 0.2999122, y: 0.5979459, z: -15.632002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -432,7 +432,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.92
+      value: -7.19
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -442,7 +442,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.02
+      value: 1.06
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -517,7 +517,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 5
+  m_Intensity: 1
   m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -654,7 +654,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.91
+      value: -4.39
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -664,7 +664,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.39
+      value: -5.38
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -778,7 +778,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.52
+      value: -3.21
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -788,7 +788,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.66
+      value: 6.96
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -1026,7 +1026,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.57
+      value: 6.14
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -1036,7 +1036,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5.02
+      value: 4.67
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
@@ -1166,7 +1166,7 @@ MonoBehaviour:
     room: {fileID: 2134899354}
   tuner:
     light_count: 50
-    speed: 3
+    speed: 2
     dir: 2
 --- !u!1001 &2065392366
 PrefabInstance:
@@ -1348,7 +1348,7 @@ PrefabInstance:
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.98
+      value: 9.53
       objectReference: {fileID: 0}
     - target: {fileID: 7216956858281663052, guid: 15e49fb9290adee4a81bb2a1096f7b9e,
         type: 3}
